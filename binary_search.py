@@ -1,3 +1,6 @@
+# From http://interactivepython.org/runestone/static/pythonds/SortSearch/TheBinarySearch.html
+
+
 def binary_search(alist, item):
     first = 0
     last = len(alist) - 1
