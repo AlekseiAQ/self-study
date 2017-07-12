@@ -1,6 +1,6 @@
 import pytest
 
-from binary_search import binary_search
+from solutions.binary_search import binary_search
 
 EXAMPLES = (
     ('args', 'expected'),
