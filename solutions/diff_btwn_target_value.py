@@ -1,6 +1,6 @@
 def some_function(target, values):
     if not values:
-        return []
+        return None
     results = {elem: abs(target - elem) for elem in values}
     new_results = {}
     for k, v in results.items():
