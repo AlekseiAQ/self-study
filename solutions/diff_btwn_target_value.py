@@ -6,5 +6,4 @@ def some_function(target, values):
     for k, v in results.items():
         new_results.setdefault(v, []).append(k)
     closest = min(new_results)
-    results = new_results.get(closest)
-    return results if isinstance(results, int) else min(results)
+    return min(new_results.get(closest))
